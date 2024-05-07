@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page metadata, encoding, and viewport settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Page title -->
+  <title>About PharmaCompany</title>
+  
+  <!-- Include Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom styles for the page -->
+  <style>
+    body {
+      background-image: url('background.jpg'); /* Background image setting */
+      background-size: cover; /* Ensure the image covers the entire background */
+      background-repeat: no-repeat; /* Avoid repeating the background image */
+    }
+    
+    footer {
+      /* Footer styling */
+      position: fixed; /* Make the footer fixed at the bottom */
+      left: 0;
+      bottom: 0;
+      width: 100%; /* Footer takes full width */
+      background-color: #343a40; /* Dark background for the footer */
+      color: white; /* White text for better visibility */
+      text-align: center; /* Center-align the text */
+      padding: 10px 0; /* Padding for visual spacing */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar for navigation across the site -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Main Navigation">
+    <!-- Navbar brand with the company's name -->
+    <a class="navbar-brand" href="#">PharmaCompany</a>
+    
+    <!-- Navbar toggler for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto"> <!-- Links for navigation -->
+        <li class="nav-item">
+          <a class="nav-link" href="web.html">Home</a> <!-- Link to home page -->
+        </li>
+        <li class="nav-item dropdown active"> <!-- Dropdown for additional information -->
+          <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout"> <!-- Dropdown menu with more links -->
+            <a class="dropdown-item" href="#vision">Vision</a> <!-- Link to vision section -->
+            <a class="dropdown-item" href="#mission">Mission</a> <!-- Link to mission section -->
+            <a class="dropdown-item" href="#values">Values</a> <!-- Link to values section -->
+          </div>
+        </li>
+        <li class="nav-item"> <!-- Link to products page -->
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item"> <!-- Link to contact page -->
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content for the "About" page -->
+  <div class="container mt-5"> <!-- Use a container for layout consistency -->
+    <div class="row">
+      <div class="col-md-12"> <!-- Column for content -->
+        <h1>About PharmaCompany</h1> <!-- Main heading -->
+        
+        <!-- Vision section -->
+        <div id="vision">
+          <h2>Vision</h2>
+          <p>Our vision is to be a leading provider of innovative healthcare solutions that improve the quality of life for people around the world.</p>
+        </div>
+        
+        <!-- Mission section -->
+        <div id="mission">
+          <h2>Mission</h2>
+          <p>Our mission is to develop and deliver safe, effective, and affordable medications that address the healthcare needs of our customers.</p>
+        </div>
+        
+        <!-- Values section with a list of values -->
+        <div id="values">
+          <h2>Values</h2>
+          <ul>
+            <li>Quality: Commitment to maintaining the highest standards of quality.</li>
+            <li>Integrity: Conducting business with honesty and ethical behavior.</li>
+            <li>Innovation: Continuous innovation to improve products and services.</li>
+            <li>Customer Focus: Dedication to meeting customer needs.</li>
+            <li>Teamwork: Collaborating to achieve shared goals.</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer section at the bottom of the page -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaCompany. All rights reserved.</p> <!-- Copyright notice -->
+  </footer>
+
+  <!-- Include Bootstrap JavaScript and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script> <!-- Popper for Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script> <!-- Bootstrap JavaScript -->
+</body>
+</html>
